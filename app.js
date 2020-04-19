@@ -27,7 +27,7 @@ let p1 = '';
 let p2 = '';
 let result = ''
 
-let startbutton = document.getElementById('start');
+let startbutton = document.getElementById('start-btn');
 let restartbutton = document.getElementById('restart');
 let playground = document.querySelector('.playground-container');
 let startContainer = document.querySelector('#start')
