@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tic Tac Toe</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="container">
+        <div class="start" id="start">
+            <h3>Welcome To Tic-Tac Toe</h3>
+            <input type="text" placeholder="Player One" name="p1" id="p1">
+            <input type="text" placeholder="Player One" name="p2" id="p2">
+            <button id="start">Start</button>
+        </div>
+        <div class="start" id="end">
+            <h1 id="result">Draw</h1>
+            <button id="restart">Restart</button>
+        </div>
+        <div id="turn">
+        </div>
+        <div class="playground-container">
+
+            <div id="first" class="playground" onclick="clicked('first')">
+            </div>
+            <div id="second" class="playground" onclick="clicked('second')">
+            </div>
+            <div id="third" class="playground" onclick="clicked('third')">
+            </div>
+            <div id="four" class="playground" onclick="clicked('four')">
+            </div>
+            <div id="five" class="playground" onclick="clicked('five')">
+            </div>
+            <div id="six" class="playground" onclick="clicked('six')">
+            </div>
+            <div id="seven" class="playground" onclick="clicked('seven')">
+            </div>
+            <div id="eight" class="playground" onclick="clicked('eight')">
+            </div>
+            <div id="nine" class="playground" onclick="clicked('nine')">
+            </div>
+        </div>
+    </div>
+
+</body>
+<script src="app.js">
+
+</script>
+
+</html>
